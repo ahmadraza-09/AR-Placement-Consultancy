@@ -1,0 +1,92 @@
+.know-more-section {
+    width: 100%;
+    /* height: fit-content; */
+    height: fit-content;
+    margin-top: 100px;
+    border: 2ox solid #000;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-image: url('images/asset6.png');
+    background-size: cover;
+}
+
+.know-more-section .heading {
+    width: 100%;
+    height: fit-content;
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+}
+
+.know-more-section h3 {
+    text-align: center;
+}
+
+.know-more-section img {
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.know-more-section .description{
+    text-align: center;
+}
+
+.know-more-section p {
+    max-width: 900px;
+    height: fit-content;
+    text-align: start;
+}
+
+.know-more-section .contact-box {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.know-more-provide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.know-more-section .contact-box i {
+    color: #0055ff;
+}
+
+.know-more-section .contact-box a {
+    color: #000;
+}
+
+.know-more-section .contact-box p {
+    display: flex;
+    gap: 10px;
+}
+
+/* Responsive */
+/* 320px and 628px */
+@media (min-width: 320px) and (max-width: 628px) {
+
+    .know-more-section {
+        margin-top: 120px;
+    }
+
+    .know-more-section .heading {
+        font-size: 20px;
+    }
+
+    .know-more-section img {
+        width: 100%;
+    }
+
+    .know-more-section .contact-box {
+        width: 100%;
+    }
+}

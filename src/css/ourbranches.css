@@ -1,0 +1,112 @@
+.our-branches-section {
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+    /* border: 2px solid #000; */
+    padding-top: 20px;
+}
+
+.our-branches-section>h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.branches {
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 40px;
+}
+
+.click-branch {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.branch {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 55%;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.brance-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 55%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.brance-image:hover {
+    border: 2px solid #fff;
+}
+
+.brance-image img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.branches-details {
+    width: 100%;
+    height: fit-content;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/address-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    margin-top: 20px;
+}
+
+
+/* Responsive */
+/* 628px and 768px */
+@media (min-width: 628px) and (max-width: 768px) {
+    .our-branches-section>h2 {
+        font-size: 35px;
+    }
+}
+
+/* 320px and 628px */
+@media (min-width: 320px) and (max-width: 628px) {
+
+    .our-branches-section {
+        padding-top: 40px;
+    }
+
+    .branches {
+        padding: 20px 20px;
+        gap: 20px;
+    }
+
+    .our-branches-section>h2 {
+        font-size: 25px;
+    }
+
+    .brance-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .branches-details {
+        border-radius: 0px;
+    }
+}

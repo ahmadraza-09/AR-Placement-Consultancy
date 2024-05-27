@@ -1,0 +1,352 @@
+.about-section {
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.about-section>h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about-section>h2>span:first-child {
+    color: #1178bb;
+}
+
+.about-section>h2>span:last-child {
+    color: #bf1d2e;
+}
+
+.about-banner {
+    width: 100%;
+    height: 250px;
+    background-image: url('./images/banner-about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+}
+
+.about-section .about-welcome {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 0px 40px;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.about-section .about-welcome>.about-image {
+    width: 50%;
+    display: none;
+}
+
+.about-section .about-welcome>.about-image img {
+    width: 100%;
+}
+
+.about-section .about-welcome>.about-content {
+    width: 50%;
+    text-align: center;
+}
+
+.about-section .about-welcome>.about-content>p {
+    line-height: 1.4;
+    width: 100%;
+}
+
+.about-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+}
+
+.about-cards>.card {
+    width: 280px;
+    height: 120px;
+    /* border: 1px solid #000; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.about-cards>.card:hover {
+    transform: translateY(-10px);
+}
+
+.about-cards>.card h4 {
+    font-weight: 550;
+}
+
+.about-cards>.card h4>span {
+    color: #1178bb;
+    font-weight: 700;
+}
+
+.card-left img {
+    width: 60px;
+}
+
+.card-right {
+    line-height: 1.5;
+}
+
+.industries-serve {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.industries-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0px 30px;
+    gap: 40px;
+}
+
+.industries-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.industries-box>img{
+    width: 50px;
+}
+
+.staffing-solution {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.staffing-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.staffing-image {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+
+.staffing-image img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.staffing-image img:hover {
+    transform: scale(1.4);
+}
+
+.staffing-content {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* border: 2px solid #000; */
+}
+
+.staffing-box {
+    width: 250px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.sourcing-box {
+    height: 250px;
+}
+
+.staffing-box:hover {
+    transform: translateY(-10px);
+}
+
+.company-quote {
+    width: 100%;
+    height: fit-content;
+    background-color: #1178bb;
+    padding: 10px 10px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-quote>p {
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 55px;
+    padding: 10px;
+}
+
+.company-leaders {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-leaders-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0px 80px;
+}
+
+.company-leaders-card {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.leader-image {
+    width: 100%;
+}
+
+.leader-image img {
+    width: 200px;
+}
+
+.leader-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Responsive */
+/* 628px and 768px */
+@media (min-width: 628px) and (max-width: 768px) {
+    
+    .about-banner {
+        height: 150px;
+    }
+
+    .industries-boxes {
+        padding: 0px 0px;
+    }
+    
+    .about-cards {
+        padding: 0px 20px;
+    }
+
+    .about-section .about-welcome {
+        padding: 0px 20px;
+    }
+}
+
+/* 320px and 628px */
+@media (min-width: 320px) and (max-width: 628px) {
+    
+    .about-section {
+        margin-top: 120px;
+    }
+
+    .company-quote>p {
+        padding: 20px;
+    }
+
+    .company-leaders-cards {
+        padding: 0px 10px;
+    }
+
+    .industries-boxes {
+        padding: 0px 0px;
+    }
+
+    .about-section .about-welcome>.about-image {
+        display: block;
+    }
+
+    .about-banner {
+        height: 100px;
+    }
+
+    .about-cards {
+        padding: 0px 10px;
+    }
+
+    .about-section>h2 {
+        font-size: 20px;
+        padding: 0px 5px;
+    }
+
+    .about-section .about-welcome {
+        padding: 0px 10px;
+        flex-direction: column;
+    }
+
+    .about-section .about-welcome>.about-image,
+    .about-section .about-welcome>.about-content {
+        width: 100%;
+    }
+
+    .about-cards>.card {
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+
+}

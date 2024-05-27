@@ -1,0 +1,64 @@
+.admin-login-section {
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    background-image: url('./images/login.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-login-section>form {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    margin-left: 3.5px;
+    margin-top: 18px;
+    background: #fff;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.admin-login-section>form h2 {
+    text-align: center;
+}
+
+.admin-login-section>form input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    background-color: #e2e8f0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.admin-login-section>form button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #0055ff;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Responsive */
+/* 320px and 480px */
+@media (min-width: 320px) and (max-width: 480px){
+    .admin-login-section>form {
+        width: 300px;
+    }
+}

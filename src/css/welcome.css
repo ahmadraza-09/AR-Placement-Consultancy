@@ -1,0 +1,128 @@
+.welcome-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 0px;
+    background-image: url('./images/asset6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.welcome-section>h3 {
+    color: #0055ff;
+    font-size: 20px;
+    position: relative;
+}
+
+.welcome-section>h3::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 0;
+    height: 3px;
+    border-radius: 55px;
+    width: 50px;
+    color: #000;
+    background-color: #000;
+}
+
+.welcome-section>h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.welcome-section>p {
+    max-width: 800px;
+    text-align: center;
+}
+
+.welcome-section-box {
+    width: 100%;
+    height: fit-content;
+    /* padding: 20px 20px; */
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.welcome-section-box .welcome-box-card {
+    width: 240px;
+    height: 280px;
+    /* border: 2px solid #000; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 10px;
+    background-image: url('./images/bg-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.welcome-section-box .welcome-box-card:hover {
+    transform: translateY(-10px);
+}
+
+.welcome-box-card .img-box {
+    width: 80px;
+    height: 80px;
+    background-color: #e79c06;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 55px;
+}
+
+.welcome-box-card .img-box:hover img{
+    transform:scale(1.9);
+}
+
+.welcome-box-card .img-box img {
+    width: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.welcome-box-card h2 {
+    font-size: 20px;
+}
+
+.welcome-box-card p {
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Responsive */
+/* 628px and 768px */
+@media (min-width: 628px) and (max-width: 768px) {
+    .welcome-section p {
+        padding: 0px 20px;
+    }
+}
+
+/* 320px and 628px */
+@media (min-width: 320px) and (max-width: 628px) {
+
+    .welcome-section>h2 {
+        font-size: 20px;
+    }
+
+    .welcome-section>p {
+        padding: 0px 20px;
+        font-size: 15px;
+    }
+}
