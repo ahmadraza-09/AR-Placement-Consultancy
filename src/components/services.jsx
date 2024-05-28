@@ -13,7 +13,7 @@ const Services = () => {
   ];
 
   const handleNavigate = (slug) => {
-    navigate(`/services/${slug}`);
+    navigate(`/service/${slug}`);
   };
 
   return (

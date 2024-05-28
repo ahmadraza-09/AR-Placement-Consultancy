@@ -55,6 +55,8 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    text-align: center;
+    padding: 0px 100px;
 }
 
 .know-more-section .contact-box i {
@@ -71,11 +73,17 @@
 }
 
 /* Responsive */
+
+
 /* 320px and 628px */
 @media (min-width: 320px) and (max-width: 628px) {
-
+    
     .know-more-section {
         margin-top: 120px;
+    }
+
+    .know-more-provide {
+        padding: 0px 10px;
     }
 
     .know-more-section .heading {
@@ -85,8 +93,15 @@
     .know-more-section img {
         width: 100%;
     }
-
+    
     .know-more-section .contact-box {
         width: 100%;
+    }
+}
+
+@media  (min-width: 628px) and (max-width: 800px){
+
+    .know-more-provide {
+        padding: 0px 50px;
     }
 }
