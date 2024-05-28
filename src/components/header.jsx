@@ -11,12 +11,20 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
 
+
     useEffect(() => {
         showTop();
     }, []);
 
     const showTop = () => {
         window.scrollTo(0, 0);
+    };
+
+    const handleWhatsAppClick = () => {
+        const phoneNumber = '7070054306';
+        const message = 'Hello, I would like to inquire about your services.';
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(url, '_blank');
     };
 
     const changeBackground = () => {
@@ -53,7 +61,7 @@ const Header = () => {
                 <div className="contact-info">
                     <a href="https://www.instagram.com/arplacementnoida" target='_blank'><img src="/images/instagram-img.png" alt="" /></a>
                     |
-                    <a href="tel:7070054306" target='_blank'><img src="/images/whatsapp-img.png" alt="" /></a>
+                    <a onClick={handleWhatsAppClick} target='_blank'><img src="/images/whatsapp-img.png" alt="" /></a>
                     |
                     <a href="https://www.linkedin.com/company/arplacement/" target='_blank'><img src="/images/linkedin-img.png" alt="" /></a>
                     |
