@@ -12,7 +12,7 @@ footer {
     background-image: url('./images/asset4.png');
     background-repeat: no-repeat;
     background-position: center top;
-    border-top: 5px solid #0055ff;
+    border-top: 5px solid #002c69;
 }
 
 a {
@@ -40,7 +40,7 @@ footer .row {
 }
 
 .footer-col h2 span {
-    color: #0055ff;
+    color: #002c69;
 }
 
 .footer-col p {
@@ -63,7 +63,7 @@ footer .row {
 }
 
 .footer-col .contact-col p i {
-    color: #0055ff;
+    color: #002c69;
 }
 
 .footer-col {
@@ -85,7 +85,7 @@ footer .row {
 
 .footer-col a:hover {
     transform: translateX(5px);
-    color: #0055ff;
+    color: #002c69;
 }
 
 .footer-col:last-child a:hover {
@@ -106,7 +106,7 @@ footer .row {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #0055ff;
+    background-color: #002c69;
     height: 3px;
     box-sizing: border-box;
     width: 50px;
@@ -148,7 +148,7 @@ footer .row {
 
 .footer-col .social-links a:hover {
     color: #fff;
-    background-color: #0055ff;
+    background-color: #002c69;
 }
 
 .footer-col .news-letter {
@@ -172,7 +172,7 @@ footer .row {
 
 .footer-col .news-letter button {
     height: 40px;
-    background-color: #0055ff;
+    background-color: #002c69;
     color: #fff;
     border: none;
     font-weight: 600;
@@ -185,8 +185,8 @@ footer .row {
 .footer-copyright {
     height: 40px;
     width: 100%;
-    background-color: orange;
-    color: #000;
+    background-color: #008b8b;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;

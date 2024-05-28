@@ -14,31 +14,34 @@ const IndustryPracticeComp = () => {
     };
 
     const industryPractices = [
-        { slug: 'aerospace-defense', name: 'Aerospace & Defense', image: 'images/industry-practice1.jpg' },
-        { slug: 'healthcare-pharma', name: 'Healthcare Pharma, & Diagnostics', image: 'images/industry-practice2.jpg' },
-        { slug: 'outsourcing-offshoring', name: 'Outsourcing & Offshoring', image: 'images/industry-practice3.jpg' },
-        { slug: 'automobile-auto-components', name: 'Automobile & Auto Components', image: 'images/industry-practice4.jpg' },
-        { slug: 'industrial-infrastructure', name: 'Industrial & Infrastructure', image: 'images/industry-practice5.jpeg' },
-        { slug: 'consumer-durables-building-materials', name: 'Consumer Durables & Building Materials', image: 'images/industry-practice6.jpg'},
-        { slug: 'real-estate-services', name: 'Real estate & services', image: 'images/industry-practice7.jpg'},
-        { slug: 'education-internet', name: 'Education & Internet', image: 'images/industry-practice8.jpg'},
-        { slug: 'electrical-electronics', name: 'Electrical & Electronics', image: 'images/industry-practice9.jpg'},
-        { slug: 'metals-minerals-mining', name: 'Metals, Minerals & Mining', image: 'images/industry-practice10.jpg'},
-        { slug: 'financial-services', name: 'Financial Services', image: 'images/industry-practice11.jpg'},
-        { slug: 'oil-gas', name: 'Oil & Gas', image: 'images/industry-practice12.jpg'},
-        { slug: 'media-entertainment', name: 'Media & Entertainment', image: 'images/industry-practice13.jpg'},
-        { slug: 'fmcg-telecom', name: 'FMCG & Telecom', image: 'images/industry-practice14.jpg'},
-        { slug: 'retail-logistics', name: 'Retail & Logistics', image: 'images/industry-practice15.jpg'},
+        { slug: 'it-software', name: 'IT - Software', image: 'images/it.avif' },
+        { slug: 'healthcare', name: 'Healthcare', image: 'images/healthcare.jpg' },
+        { slug: 'pharma-biotech', name: 'Pharma Biotech', image: 'images/industry-practice2.jpg' },
+        { slug: 'export-import', name: 'Export & Import', image: 'images/industry-practice3.jpg' },
+        { slug: 'automobile', name: 'Automobile', image: 'images/industry-practice4.jpg' },
+        { slug: 'manufacturing', name: 'Manufacturing', image: 'images/industry-practice5.jpeg' },
+        { slug: 'packaging-print', name: 'Packaging & Print', image: 'images/industry-practice6.jpg'},
+        { slug: 'real-estate', name: 'Real Estate', image: 'images/industry-practice7.jpg'},
+        { slug: 'education-training', name: 'Education & Training', image: 'images/industry-practice8.jpg'},
+        { slug: 'it-hardware-networking', name: 'IT Hardware & Networking', image: 'images/industry-practice9.jpg'},
+        { slug: 'advertising', name: 'Advertising/MR/PR/Events', image: 'images/advertising.jpg'},
+        { slug: 'banking-financial-services', name: 'Banking/Financial Services', image: 'images/industry-practice11.jpg'},
+        { slug: 'engineering', name: 'Engineering', image: 'images/industry-practice12.jpg'},
+        { slug: 'bpo-call-center', name: 'BPO & Call Center', image: 'images/industry-practice13.jpg'},
+        { slug: 'fmcg-telecom', name: 'FMCG/F&B ', image: 'images/industry-practice14.jpg'},
+        { slug: 'retail', name: 'Retails', image: 'images/retail.jpg'},
+        { slug: 'architecture', name: 'Architecture/Interior Design', image: 'images/interior.jpg'},
+        { slug: 'garment', name: 'Textile/Garment/Fashion', image: 'images/garment.jpg'},
     ];
 
     const handleNavigate = (slug) => {
-        navigate(`/industrypractice/${slug}`);
+        navigate(`/industry/${slug}`);
     };
 
     return (
         <>
             <section className='services-section industry-practice'>
-                <h2>INDUSTRY PRACTICES</h2>
+                <h2>INDUSTRY</h2>
                 <p>We recognize that each industry has its own nuances in terms of management style, hiring practices and compensation norms. In order to provide clients with specialized recruiting solutions, Hefty services has developed expertise in the following industry segments.</p>
                 <div className="service-card-box">
                     {industryPractices.map((practice) => (

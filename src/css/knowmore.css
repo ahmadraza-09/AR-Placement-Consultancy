@@ -35,10 +35,10 @@
     text-align: center;
 }
 
-.know-more-section p {
+.know-more-section>p {
     max-width: 900px;
     height: fit-content;
-    text-align: start;
+    text-align: center;
 }
 
 .know-more-section .contact-box {
@@ -58,7 +58,7 @@
 }
 
 .know-more-section .contact-box i {
-    color: #0055ff;
+    color: #002c69;
 }
 
 .know-more-section .contact-box a {

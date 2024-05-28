@@ -2,7 +2,7 @@
 .services-section {
     width: 100%;
     height: fit-content;
-    padding: 0px 100px;
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,13 +34,13 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
     padding: 20px 0px;
 }
 
 .service-card {
-    width: 300px;
-    height: fit-content;
+    width: 250px;
+    height: 280px;
     padding-bottom: 10px;
     /* border: 2px solid #000; */
     border-radius: 10px;
@@ -51,7 +51,6 @@
     align-items: center;
     justify-content: start;
     transition: all 0.5s ease-in-out;
-    background-image: url('./images/bg-img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -70,6 +69,7 @@
 
 .service-card-image img {
     width: 100%;
+    height: 200px;
     border-radius: 10px;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
@@ -95,7 +95,7 @@
 
 .service-card-content button {
     height: 30px;
-    background-color: #0055ff;
+    background-color: #002c69;
     color: #fff;
     border: none;
     outline: none;

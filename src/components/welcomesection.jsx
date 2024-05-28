@@ -6,8 +6,8 @@ const WelcomeSection = () => {
     <>
       <section className="welcome-section">
         <h3>Welcome</h3>
-        <h2>Hefty Source & Services Private limited</h2>
-        <p>We Are A Solution Oriented Company And Your Needs Are Our Greatest Concern.The company has strived to achieve its impeccable standards over a decade and has evolved in all the aspects of its existence to provide the unmatched services that our attained by our clients.</p>
+        <h2>AR Placement Consultancy PVT LTD</h2>
+        <p>We are here to provide the best range of Solutions, Services or Placement to both prospective employers and employees. To provide the best quality from the talent pool to the employers, and help to place the right candidate at the right time, we provide search at all the Freshers and Experienced positions.</p>
         <div className="welcome-section-box">
             <div className="welcome-box-card">
                 <div className="img-box">

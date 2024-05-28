@@ -43,66 +43,44 @@ const Hero = () => {
         <SwiperSlide>
           <div className='slider-card'>
             <div className="overlay">
-              <h2>We Provide Recruitment Over India</h2>
+              <h2>We Provide Permanent Staffing Service</h2>
               <p>
-                Our recruitment services help you find the right talent for your organization. Whether you're looking for permanent employees or temporary staff, we've got you covered. Our team of experts uses a comprehensive approach to match the skills and qualifications of candidates with your company's needs.
+                Experience seamless recruitment with our Permanent Staffing Service, where we meticulously match top-tier talent to your long-term needs. Let us be your strategic partner in building a strong and enduring workforce.
               </p>
-              <button onClick={() => {navigate(`/service/recruitment`)}}>Know More</button>
+              <button onClick={() => {navigate(`/service/permanent-staffing-service`)}}>Know More</button>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='slider-card slider-card2'>
             <div className="overlay">
-              <h2>We Provide Apprenticeship Over India</h2>
+              <h2>We Provide Recruitment Process Outsourcing</h2>
               <p>
-                Our apprenticeship programs offer hands-on training and mentorship opportunities to individuals looking to kick-start their careers. Whether you're a recent graduate or switching fields, our programs provide valuable learning experiences to help you develop skills and gain practical knowledge in your chosen field.
+                Elevate your hiring efficiency with our Recruitment Process Outsourcing solutions, designed to streamline your talent acquisition process from sourcing to onboarding.
               </p>
-              <button onClick={() => {navigate(`/service/apprenticeship`)}}>Know More</button>
+              <button onClick={() => {navigate(`/service/recruitment-process-outsourcing`)}}>Know More</button>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='slider-card slider-card3'>
             <div className="overlay">
-              <h2>We Provide Manpower Over India</h2>
+              <h2>We Provide Human Resource Services</h2>
               <p>
-                Our manpower solutions provide you with the workforce you need to meet your business objectives. Whether you need skilled labor for a specific project or temporary staff to cover peak seasons, we offer flexible staffing solutions to address your manpower requirements.
+                Optimize your workforce with our comprehensive Human Resource Services, tailored to meet your organization's unique needs. From HR consulting to talent management, we're dedicated to empowering your team's success.
               </p>
-              <button onClick={() => {navigate(`/service/manpower`)}}>Know More</button>
+              <button onClick={() => {navigate(`/service/human-resource-services`)}}>Know More</button>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='slider-card slider-card4'>
             <div className="overlay">
-              <h2>We Provide Staffing Solution Over India</h2>
+              <h2>We Provide Campus Placement Service</h2>
               <p>
-                Our staffing solutions provide comprehensive workforce management services to streamline your staffing processes and optimize your workforce. From recruitment to onboarding and beyond, we handle all aspects of staffing to ensure your organization operates efficiently and effectively.
+                Unlock the potential of tomorrow's leaders with our Campus Placement Service, connecting organizations with top talent fresh from academia. Let us facilitate seamless transitions from campus to career, ensuring a bright future for both employers and graduates.
               </p>
-              <button onClick={() => {navigate(`/service/staffing-solution`)}}>Know More</button>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className='slider-card slider-card5'>
-            <div className="overlay">
-              <h2>We Provide Skill Development Over India</h2>
-              <p>
-                Our skill development programs offer individuals the opportunity to enhance their skills and competencies to succeed in today's competitive job market. Whether you're looking to upgrade your existing skills or learn new ones, our programs provide practical training and support to help you achieve your career goals.
-              </p>
-              <button onClick={() => {navigate(`/service/skill-development`)}}>Know More</button>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className='slider-card slider-card6'>
-            <div className="overlay">
-              <h2>We Provide Social Entrepreneurship Over India</h2>
-              <p>
-                Our social entrepreneurship initiatives empower individuals and communities to create positive change through innovative solutions to social and environmental challenges. Whether you're a budding social entrepreneur or an established organization looking to make a difference, we provide support and resources to help you achieve your social impact goals.
-              </p>
-              <button onClick={() => {navigate(`/service/social-entrepreneurship`)}}>Know More</button>
+              <button onClick={() => {navigate(`/service/campus-placement-service`)}}>Know More</button>
             </div>
           </div>
         </SwiperSlide>

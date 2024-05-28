@@ -7,6 +7,7 @@ import Services from '../components/services';
 import WelcomeSection from '../components/welcomesection';
 import FindJob from '../components/findjob';
 import CompanyRegistered from '../components/companyregistered';
+import RecruitmentProcess from '../components/recruitmentprocess';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       {<WelcomeSection/>}
       {<FindJob/>}
       {<Services/>}
+      {<RecruitmentProcess/>}
       {<CompanyRegistered/>}
       {<Testimonial/>}
       {<Footer/>}

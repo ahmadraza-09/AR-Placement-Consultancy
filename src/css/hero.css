@@ -3,7 +3,6 @@
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('./images/bg-img.jpg');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,23 +33,17 @@
     justify-content: center;
     color: #fff;
     background-size: cover;
-    background-image: url('./images/consultant-slider1.jpg');
+    background-image: url('./images/slider1.jpg');
 }
 
 .slider-card2 {
-    background-image: url('./images/consultant-slider2.jpg');
+    background-image: url('./images/slider2.webp');
 }
 .slider-card3 {
-    background-image: url('./images/consultant-slider3.jpg');
+    background-image: url('./images/slider3.png');
 }
 .slider-card4 {
-    background-image: url('./images/consultant-slider4.jpg');
-}
-.slider-card5 {
-    background-image: url('./images/consultant-slider5.jpg');
-}
-.slider-card6 {
-    background-image: url('./images/consultant-slider6.jpg');
+    background-image: url('./images/slider4.jpg');
 }
 
 .slider-card .overlay {
@@ -79,7 +72,7 @@
     font-size: 15px;
     padding: 10px 20px;
     border: none;
-    background-color: #0055ff;
+    background-color: #002c69;
     color: #fff;
     font-weight: 600;
     cursor: pointer;

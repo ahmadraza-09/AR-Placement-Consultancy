@@ -4,7 +4,7 @@ a {
 
 .active-menu {
     font-weight: 600;
-    color: #0055ff;
+    color: #002c69;
 }
 
 .navbar-section {
@@ -36,7 +36,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: orange;
+    background-color: darkcyan;
 }
 
 .contact-address-banner-left {
@@ -48,7 +48,7 @@ a {
 }
 
 .contact-address-banner-left .contact-info:first-child {
-    border-right: 2px solid #000;
+    border-right: 2px solid #fff;
     padding-right: 10px;
 }
 
@@ -60,20 +60,7 @@ a {
 }
 
 .contact-info a {
-    color: #000;
-}
-
-.contact-info button a {
     color: #fff;
-}
-
-.contact-info button {
-    padding: 5px 10px;
-    font-weight: 600;
-    background-color: #0055ff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
 }
 
 .contact-info img{
@@ -89,7 +76,7 @@ a {
 /* Navbar */
 .navbar {
     width: 100%;
-    height: 60px;
+    height: fit-content;
     /* border: 2px solid #000; */
     display: flex;
     align-items: center;
@@ -104,19 +91,18 @@ a {
     width: fit-content;
     padding-left: 20px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-section img {
-    width: 120px;
+    width: 80px;
 }
 
 .logo {
     font-weight: 800;
     font-size: 25px;
-}
-
-.logo span {
-    color: #0055ff;
 }
 
 .menu-section {
@@ -160,7 +146,7 @@ a {
 }
 
 .menu-section>li:hover {
-    color: #0055ff;
+    color: #002c69;
     transform: translateY(-5px);
 }
 
@@ -191,7 +177,7 @@ a {
     height: 30px;
     padding: 0px 10px;
     cursor: pointer;
-    background-color: #0055ff;
+    background-color: #002c69;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -200,7 +186,7 @@ a {
 }
 
 .job-section button:hover {
-    background-color: #2c6ff5;
+    background-color: #064bac;
 }
 
 #check:checked ~ .menu-section {

@@ -6,12 +6,10 @@ const Services = () => {
   const navigate = useNavigate();
 
   const servicesData = [
-    { slug: "recruitment", title: "Recruitment", img: "images/service-img1.jpg" },
-    { slug: "apprenticeship", title: "Apprenticeship", img: "images/service-img2.jpg" },
-    { slug: "manpower", title: "Manpower", img: "images/service-img3.jpg" },
-    { slug: "staffing-solution", title: "Staffing Solution", img: "images/service-img4.jpg" },
-    { slug: "skill-development", title: "Skill Development", img: "images/service-img5.jpg" },
-    { slug: "social-entrepreneurship", title: "Social Entrepreneurship", img: "images/service-img6.jpg" }
+    { slug: "permanent-staffing-service", title: "Permanent Staffing Service", img: "images/service-img1.jpg" },
+    { slug: "recruitment-process-outsourcing", title: "Recruitment Process Outsourcing", img: "images/recruitment.jpg" },
+    { slug: "human-resource-services", title: "Human Resource Services", img: "images/hr.jpg" },
+    { slug: "campus-placement-service", title: "Campus Placement Service", img: "images/service-img4.jpg" },
   ];
 
   const handleNavigate = (slug) => {
@@ -22,8 +20,7 @@ const Services = () => {
     <>
       <section className='services-section'>
         <h2>Our Services</h2>
-        <p>Hefty Source & Services Private limited providing excellence in recruitment and placement services across
-            domains carving a niche for ourselves in the recruitment service.</p>
+        <p>We aim to provide fast, simple, cost-effective and high-end quality services by working closely with our clients and candidates, through our strategic, experience and Leaders. We provide a full range of solutions including permanent, temporary staffing, outsourcing and other HR solutions in the areas of IT, Sales, Marketing, Operation, Finance and Accounting, Human Resources, Manufacturing, Fashion, Supply Chain and Logistics. We cater to the needs of enthusiastic professionals in shaping their career and partnering with valuable clients in identifying Manpower Resources across the nation.</p>
         <div className="service-card-box">
           {servicesData.map(service => (
             <div key={service.slug} className="service-card">

@@ -32,29 +32,25 @@ const ContactComp = () => {
               <i class="fa-solid fa-location-dot"></i>
             </div>
             <div className="contact-box-right">
-              <p>B-80, P.C Colony,Lohia Nagar,Kankarbagh, Patna-20</p>
+              <p>Plot Number 145, Sector 16A Greater Noida West, UP, IN</p>
             </div>
           </div>
           <div className="contact-box">
             <div className="contact-box-left">
               <i class="fa-solid fa-phone-volume"></i>
               <i class="fa-solid fa-phone-volume"></i>
-              <i class="fa-solid fa-phone-volume"></i>
             </div>
             <div className="contact-box-right">
-              <a href="tel:9471876257" target='_blank'>+91 9471876257</a>
-              <a href="tel:7870997066" target='_blank'>+91 7870997066</a>
-              <a href="tel:6123557176" target='_blank'>+91 6123557176</a>
+              <a href="tel:7070054306" target='_blank'>+91 7070054306 </a>
+              <a href="tel:9354100593" target='_blank'>+91 9354100593</a>
             </div>
           </div>
           <div className="contact-box">
             <div className="contact-box-left">
               <i class="fa-solid fa-envelope"></i>
-              <i class="fa-solid fa-envelope"></i>
             </div>
             <div className="contact-box-right">
-              <a href="mailto:info@heftyservices.com" target='_blank'>info@heftyservices.com</a>
-              <a href="mailto:hr@heftyservices.com" target='_blank'>hr@heftyservices.com</a>
+              <a href="mailto:hr@arplacements.com" target='_blank'>hr@arplacements.com</a>
             </div>
           </div>
         </div>

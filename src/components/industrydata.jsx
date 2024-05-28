@@ -29,7 +29,7 @@ const IndustryData = () => {
           <br />
           <p className='description'>{industry.description}</p>
           <br />
-          <h3>What Industry Practice we provide you in {industry.title}</h3>
+          <h3>What we provide you in {industry.title}</h3>
           <br />
           <div className="know-more-provide">
             <p className="bullet-point">1.{industry.practice[0]}</p>
@@ -42,17 +42,13 @@ const IndustryData = () => {
           <h3>Contact Us</h3>
           <br />
           <div className="contact-box">
-            <p><i class="fa-solid fa-envelope"></i><a href="mailto:info@heftyservices.com" target='_blank'>info@heftyservices.com</a></p>
+            <p><i class="fa-solid fa-envelope"></i><a href="mailto:hr@arplacements.com" target='_blank'>hr@arplacements.com</a></p>
             <br />
-            <p><i class="fa-solid fa-envelope"></i><a href="mailto:hr@heftyservices.com" target='_blank'>hr@heftyservices.com</a></p>
+            <p><i class="fa-solid fa-phone-volume"></i><a href="tel:+91 7070054306" target='_blank'>+91 7070054306 </a></p>
             <br />
-            <p><i class="fa-solid fa-phone-volume"></i><a href="tel:+91 9471876257" target='_blank'>+91 9471876257</a></p>
+            <p><i class="fa-solid fa-phone-volume"></i><a href="tel:+91 9354100593" target='_blank'>+91 9354100593 </a></p>
             <br />
-            <p><i class="fa-solid fa-phone-volume"></i><a href="tel:+91 7870997066" target='_blank'>+91 7870997066</a></p>
-            <br />
-            <p><i class="fa-solid fa-phone-volume"></i><a href="tel:+91 6123557176" target='_blank'>+91 6123557176</a></p>
-            <br />
-            <p><i class="fa-solid fa-location-dot"></i> Address: B-80, P.C Colony,Lohia Nagar,Kankarbagh, Patna-20</p>
+            <p><i class="fa-solid fa-location-dot"></i> Address: Plot Number 145, Sector 16A Greater Noida West, UP, IN</p>
           </div>
         </div>
       ) : (

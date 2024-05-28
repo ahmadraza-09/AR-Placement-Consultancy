@@ -24,7 +24,6 @@
     padding: 20px;
     display: flex;
     background-color: #fff;
-    /* background-image: url('images/bg-img.jpg'); */
     /* background-size: cover; */
     gap: 20px;
     flex-direction: column;
@@ -61,7 +60,7 @@ textarea {
     border: none;
     border-radius: 5px;
     outline: none;
-    background-color: #0055ff;
+    background-color: #002c69;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -98,7 +97,7 @@ textarea {
 }
 
 .contact-section-right .contact-box-left>i {
-    color: #0055ff;
+    color: #002c69;
 }
 
 .contact-box-left {

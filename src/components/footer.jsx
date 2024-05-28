@@ -12,20 +12,18 @@ const Footer = () => {
         <div class="row">
             <div class="footer-col">
                 {/* <h2>Health<span>Care</span></h2> */}
-                <img src="images/hefty-logo.png" alt="" />
+                <img src="/images/logo.jpg" alt="" />
                 {/* <p>Your trusted partner in wellness, offering comprehensive medical resources and services.</p> */}
                 <div className="contact-col">
                     <p>
                         <i class="fa-solid fa-location-dot"></i>
-                        <p>B-80, P.C Colony,Lohia Nagar,Kankarbagh, Patna-20</p>
+                        <p>Plot Number 145, Sector 16A Greater Noida West, UP, IN</p>
                     </p>
                 </div>
                 <div className="contact-col">
-                    <p><i class="fa-solid fa-phone-volume"></i><a href="tel:9471876257" target='_blank'>+91 9471876257</a></p>
-                    <p><i class="fa-solid fa-phone-volume"></i><a href="tel:7870997066" target='_blank'>+91 7870997066</a></p>
-                    <p><i class="fa-solid fa-phone-volume"></i><a href="tel:6123557176" target='_blank'>+91 6123557176</a></p>
-                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:info@heftyservices.com" target='_blank'>info@heftyservices.com</a></p>
-                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:hr@heftyservices.com" target='_blank'>hr@heftyservices.com</a></p>
+                    <p><i class="fa-solid fa-phone-volume"></i><a href="tel:7070054306" target='_blank'>+91 7070054306</a></p>
+                    <p><i class="fa-solid fa-phone-volume"></i><a href="tel:9354100593 " target='_blank'>+91 9354100593 </a></p>
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:hr@arplacements.com" target='_blank'>hr@arplacements.com</a></p>
                 </div>
                 <div className="contact-col">
                     <p>
@@ -38,8 +36,8 @@ const Footer = () => {
                 <h4>menu</h4>
                 <a onClick={() => {navigate('/')}}>home</a>
                 <a onClick={() => {navigate('/services')}}>service</a>
-                <a onClick={() => {navigate('/industrypractice')}}>industry practices</a>
-                <a onClick={() => {navigate('/ourbranches')}}>our Branches</a>
+                <a onClick={() => {navigate('/industry')}}>industry</a>
+                <a onClick={() => {navigate('/blog')}}>blogs</a>
                 <a onClick={() => {navigate('/about')}}>about</a>
                 <a onClick={() => {navigate('/gallery')}}>gallery</a>
                 <a onClick={() => {navigate('/contact')}}>contact</a>
@@ -53,18 +51,18 @@ const Footer = () => {
             </div>
             <div class="footer-col">
                 <h4>services</h4>
-                <a>Recruitment & Apprenticeship</a>
-                <a>Manpower staffing</a>
-                <a>Skill Development</a>
-                <a>Social entrepreneurship</a>
+                <a>Permanent Staffing Service</a>
+                <a>Recruitment Process Outsourcing</a>
+                <a>Human Resource Services</a>
+                <a>Campus Placement Service</a>
             </div>
             <div class="footer-col">
                 <h4>Connect With Us</h4>
                 <div class="social-links">
-                    <a><i class="fab fa-facebook-f"></i></a>
-                    <a><i class="fab fa-twitter"></i></a>
-                    <a><i class="fab fa-instagram"></i></a>
-                    <a><i class="fab fa-linkedin-in"></i></a>
+                    <a href='' target='_blank'><i class="fab fa-facebook-f"></i></a>
+                    <a href='' target='_blank'><i class="fab fa-twitter"></i></a>
+                    <a href='https://www.instagram.com/arplacementnoida' target='_blank'><i class="fab fa-instagram"></i></a>
+                    <a href='https://www.linkedin.com/company/arplacement' target='_blank'><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div className="news-letter">
                     <input type="text"  placeholder='Enter your E-Mail'/>
@@ -75,7 +73,7 @@ const Footer = () => {
 
         <div className="footer-copyright">
             <div className="footer-copyright-left">
-                <p>© 2024</p> <img src="images/hefty-logo.png" alt="" />
+                <p>© 2024</p> <img src="/images/logo.jpg" alt="" />
             </div>
 
             <div className="footer-copyright-right">

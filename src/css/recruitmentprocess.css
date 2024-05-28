@@ -1,0 +1,68 @@
+.recruitment-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.recruitment-section h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.recruitment-boxes {
+    padding: 0px 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.recruitment-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.recruitment-box img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.recruitment-box .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recruitment-box .content h4 {
+    font-size: 20px;
+}
+
+/* Responsive */
+/* 320px and 768px */
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .recruitment-section h2 {
+        font-size: 30px;
+    }
+
+    .recruitment-box img {
+        display: none;
+    }
+
+    .recruitment-boxes {
+        padding: 0px 20px;
+    }
+    
+    .recruitment-box .content {
+        width: 100%;
+    }
+}
