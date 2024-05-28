@@ -120,6 +120,7 @@ textarea {
     .contact-section {
         flex-direction: column;
         gap: 30px;
+        margin-top: 120px;
     }
 
     .contact-section-left form {
