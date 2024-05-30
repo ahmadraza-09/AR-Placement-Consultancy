@@ -21,21 +21,20 @@
     max-width: 850px;
 }
 
-.company-list {
+.swiper-container {
+    width: 100%;
     max-width: 1200px;
-    height: fit-content;
-    padding: 20px 80px;
+    padding: 20px 0;
+}
+
+.swiper-slide {
     display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    align-items: center;
     justify-content: center;
 }
 
 .company-card {
     width: 240px;
     height: 240px;
-    /* border: 2px solid #000; */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -60,29 +59,55 @@
     font-weight: 600;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 18px;
+}
+
 /* Responsive */
 /* 628px and 768px */
 @media (min-width: 628px) and (max-width: 768px) {
-    
     .company-registered-section h2 {
         font-size: 30px;
     }
-    
+
     .company-registered-section p {
         padding: 0px 20px;
     }
-    
+
+    .company-card {
+        width: 200px;
+        height: 200px;
+    }
+
+    .company-card img {
+        width: 100px;
+    }
 }
 
 /* 320px and 628px */
 @media (min-width: 320px) and (max-width: 628px) {
-
-    .company-list {
-        padding: 20px 20px;
-        gap: 20px;
-    }
-
-    .company-registered-section>h2 {
+    .company-registered-section h2 {
         font-size: 25px;
     }
 
@@ -97,7 +122,6 @@
 
     .company-card img {
         width: 80px;
-        height: 80px;
     }
 
     .company-card h2 {
