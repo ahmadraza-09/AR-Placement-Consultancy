@@ -127,7 +127,7 @@ const AboutComp = () => {
 
             <RecruitmentProcess/>
 
-            <div className="company-leaders">
+            {/* <div className="company-leaders">
                 <h2>OUR BUSINESS LEADERS</h2>
                 <div className="company-leaders-cards">
                     <div className="comapany-leaders-card">
@@ -194,7 +194,7 @@ const AboutComp = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
       </div>
     </>
   )

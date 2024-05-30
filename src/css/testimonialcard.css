@@ -20,14 +20,17 @@
 }
 
 .image-and-name img {
-    width: 50px;
+    width: 45px;
+
+    border-radius: 55px;
 }
 
 .testimonial-card p {
     margin-top: 20px;
+    font-size: 14px;
 }
 
-.stars i {
+.stars {
     font-size: 10px;
     color: #ffa534;
 }

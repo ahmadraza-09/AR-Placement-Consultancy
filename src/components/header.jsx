@@ -111,7 +111,7 @@ const Header = () => {
                     || location.pathname === '/industry/garment'
                     ? 'active-menu' : ''} onClick={() => {navigate('/industry')}}>Industry</li>
                 <li className={location.pathname === '/about' ? 'active-menu' : ''} onClick={() => {navigate('/about')}}>About</li>
-                <li className={location.pathname === '/gallery' ? 'active-menu' : ''} onClick={() => {navigate('/gallery')}}>Gallery</li>
+                {/* <li className={location.pathname === '/gallery' ? 'active-menu' : ''} onClick={() => {navigate('/gallery')}}>Gallery</li> */}
                 <li className={location.pathname === '/blog' ? 'active-menu' : ''} onClick={() => {navigate('/blog')}}>Blogs</li>
                 <li className={location.pathname === '/contact' ? 'active-menu' : ''} onClick={() => {navigate('/contact')}}>Contact</li>
             </ul>
