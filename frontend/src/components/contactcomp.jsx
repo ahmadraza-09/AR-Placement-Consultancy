@@ -1,9 +1,10 @@
 import React from 'react'
 import '../css/contact.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const ContactComp = () => {
 
+    const [fileName, setFileName] = useState('');
 
     useEffect(() => {
         showTop();
@@ -13,16 +14,28 @@ const ContactComp = () => {
         window.scrollTo(0, 0);
     };
 
+    const handleFileChange = (e) => {
+      setFileName(e.target.files[0].name);
+    };
+
   return (
     <>
       <div className="contact-section">
         <div className="contact-section-left">
           <form>
             <h2>Contact</h2>
-            <input type="text" placeholder='Name'/>
+            <div className="input-box">
+              <input type="text" placeholder='First Name'/>
+              <input type="text" placeholder='Last Name'/>
+            </div>
             <input type="email" placeholder='Email'/>
             <input type="text" placeholder='Mobile Number'/>
+            <input type="file" id='upload' onChange={handleFileChange}/>
             <textarea typeof='text' cols="30" rows="10" placeholder='Message'></textarea>
+            <label htmlFor="upload" className='upload-resume'>
+              <i class="fa-solid fa-upload"></i>
+              {fileName ? fileName : 'Upload Resume'}
+            </label>
             <button>Send</button>
           </form>
         </div>
