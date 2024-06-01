@@ -11,6 +11,11 @@
     background-size: cover;
 }
 
+.error-message {
+    font-family: "Inconsolata";
+    color: red;
+}
+
 .contact-section-left {
     width: 60%;
     height: fit-content;
@@ -44,13 +49,17 @@ input[type="file"] {
     display: none;
 }
 
-form>.upload-resume i {
+.input-box>.upload-resume i {
     width: 25px;
     height: 25px;
     font-size: 20px;
 }
 
-.contact-section-left form>.upload-resume {
+.upload-info {
+    font-size: 12px;
+}
+
+form .input-box>.upload-resume {
     height: 40px;
     width: fit-content;
     background-color: #e2e8f0;

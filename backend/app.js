@@ -1,38 +1,36 @@
-const path = require("path");
-const express = require("express");
-const multer  = require('multer')
-
-
+const express = require('express');
+const mysql = require('mysql');
 const app = express();
-const port = 8000;
-
-const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    return cb(null, './uploads');
-  },
-  filename: function (req, file, cb) {
-    return cb(null, `${Date.now()}-${file.originalname}`);
-  },
-})
-
-const upload = multer({ storage: storage })
-
-app.set("view engine", "ejs");
-app.set("views", path.resolve("./views"));
-
-app.use(express.urlencoded({extended: false}));
-
+require('dotenv').config();
+const cors = require('cors');
+app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.get("/", (req, res) => {
-    return res.render("homepage");
+const db = mysql.createConnection ({
+    host:process.env.DATABASE_HOST,
+    user:process.env.DATABASE_USER,
+    password:process.env.DATABASE_PASSWORD,
+    database:process.env.DATABASE
 })
 
-app.post("/upload", upload.single('profileImage'), (req, res) => {
-    console.log(req.body);
-    console.log(req.file);
+app.use('/auth',require('./routes/authroute'));
+// app.use('/upload',require('./routes/uploadroute'));
 
-    return res.redirect('/');
+db.connect((error) => {
+    if (error) {
+        console.log(error.message);
+    }else {
+        console.log('Database connected successfully');
+    }
 })
 
-app.listen(port, () => console.log("listening on port " + port));
+const port = 3060;
+
+app.listen(port, (error) => {
+    if (error) {
+        console.log(error);
+    }else {
+        console.log(`Server has started at ${port}`);
+    }
+});
